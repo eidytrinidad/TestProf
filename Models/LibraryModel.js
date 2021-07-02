@@ -8,7 +8,6 @@ function findAllBooks() {
                 Id:book.Id,
                 Title:book.Title,
                 Author:book.Author,
-
             }
         ))
        
@@ -31,7 +30,7 @@ function findBookPages(id) {
     
     return new Promise((resolve,reject)=>{
      
-        const book= BookPages.find(p=>p.Id===Number(id)&& p)
+        const book= BookPages.find(p=>p.BookId===Number(id)&& p)
         resolve(book?.Pages)
     })
 }
@@ -39,7 +38,7 @@ function findBookPages(id) {
 //Get Pages by Page
 function findBookPagesByPage(id,pageNumber) {
     return new Promise((resolve,reject)=>{
-        const book= BookPages.find(p=>p.Id===Number(id)&& p)
+        const book= BookPages.find(p=>p.BookId===Number(id)&& p)
         resolve(book?.Pages[pageNumber])
     })
 }
