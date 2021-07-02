@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "dev":"nodemon app.js"
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,6 @@
   "homepage": "https://gitlab.com/gbh-candidates/eidy-trinidad---eidyjtf---2021-6-30-library-api---js#readme",
   "devDependencies": {
     "nodemon": "^2.0.9"
-  }
+  },
+  "dependencies": {}
 }
