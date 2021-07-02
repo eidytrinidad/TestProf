@@ -1,0 +1,25 @@
+{
+  "name": "eidy-trinidad---eidyjtf---2021-6-30-library-api---js",
+  "version": "1.0.0",
+  "description": "- [Instrucciones en Español](README_ES.md)\r - [Instructions in English](README_EN.md)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/gbh-candidates/eidy-trinidad---eidyjtf---2021-6-30-library-api---js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/gbh-candidates/eidy-trinidad---eidyjtf---2021-6-30-library-api---js/issues"
+  },
+  "homepage": "https://gitlab.com/gbh-candidates/eidy-trinidad---eidyjtf---2021-6-30-library-api---js#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
